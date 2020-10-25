@@ -1,0 +1,21 @@
+{
+    "name": "OledTest",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "OLED12864_I2C": "github:makecode-extensions/oled12864_i2c#v1.5.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
